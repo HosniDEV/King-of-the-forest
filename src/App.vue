@@ -35,7 +35,7 @@ onUnmounted(() => {
     <button
       v-show="showScrollButton"
       @click="scrollToTop"
-      class="fixed bg-black/90 rounded-full p-2 text-white bottom-4 right-4"
+      class="fixed z-50 bg-black/90 rounded-full p-2 text-white bottom-4 right-4"
     >
       <ChevronUpIcon class="size-6 animate-bounce" />
     </button>
